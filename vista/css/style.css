@@ -1,0 +1,115 @@
+$font = 'HelveticaNeue';
+$fontBold = 'HelveticaNeueBold';
+$fontMedium = 'HelveticaNeueMedium.ttf';
+
+
+body {
+	background-color: #ffffff;
+	margin: 0 0 0 0;
+}
+
+.main {
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav {
+	padding: 0;
+	width: auto;
+}
+
+li {
+	display: inline-block;
+	padding: 0 15px;
+	font-family: 'HelveticaNeue';
+	font-size: 14px;
+	color: #444444;
+}
+
+.contacto {
+	border: none;
+	background-color: #e66700;
+	border-radius: 28px;
+	color: white;
+	padding: 10px 25px;
+}
+
+.portada {
+	background: url('https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/sections/52aa112f5865b7f9ca65dee3de67f7f4/images/d44d7a097f2b2ff33a504d3a9a5e86d3/IMG_20170220_121229490.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
+	padding-top: 40px;
+
+}
+
+.titulos {
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.titulos h1 {
+	font-size: 45px;
+	font-family: 'HelveticaNeueBold';
+}
+
+.titulos h2 {
+	font-size: 35px;
+	font-family: 'HelveticaNeue';
+}
+
+.func {
+	width: 100%;
+	text-align: center;
+}
+
+.func .title {
+	font-family: 'HelveticaNeueBold';
+	color: #484848;
+	font-size: 25px;
+}
+
+.entrada1 {
+	display: flex;
+	justify-content: center;
+}
+
+.costofijo img{
+	width: 100px;
+	height: 100px;
+}
+
+.costofijo span {
+	display: block;
+}
+
+.vs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.vs span {
+	font-family: 'HelveticaNeue';
+	background-color: #f7971c;
+	border-radius: 50%;
+	color: white;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.comision img{
+	width: 90px;
+	height: 120px;
+}
+
+.comision span {
+	display: block;
+}
